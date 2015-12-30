@@ -14,6 +14,7 @@
 		4D9EB8241C325DD20095323C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D9EB8221C325DD20095323C /* LaunchScreen.storyboard */; };
 		4D9EB82F1C325DD20095323C /* SwiftOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9EB82E1C325DD20095323C /* SwiftOneTests.swift */; };
 		4D9EB83A1C325DD20095323C /* SwiftOneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9EB8391C325DD20095323C /* SwiftOneUITests.swift */; };
+		4D9EB8481C33B1E40095323C /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9EB8471C33B1E40095323C /* MyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4D9EB8351C325DD20095323C /* SwiftOneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftOneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D9EB8391C325DD20095323C /* SwiftOneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftOneUITests.swift; sourceTree = "<group>"; };
 		4D9EB83B1C325DD20095323C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D9EB8471C33B1E40095323C /* MyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				4D9EB8191C325DD20095323C /* AppDelegate.swift */,
 				4D9EB81B1C325DD20095323C /* ViewController.swift */,
+				4D9EB8471C33B1E40095323C /* MyView.swift */,
 				4D9EB81D1C325DD20095323C /* Main.storyboard */,
 				4D9EB8201C325DD20095323C /* Assets.xcassets */,
 				4D9EB8221C325DD20095323C /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D9EB8481C33B1E40095323C /* MyView.swift in Sources */,
 				4D9EB81C1C325DD20095323C /* ViewController.swift in Sources */,
 				4D9EB81A1C325DD20095323C /* AppDelegate.swift in Sources */,
 			);
